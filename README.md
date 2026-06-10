@@ -1,15 +1,15 @@
-# Contribution [#]: [Issue Title]
+# Contribution [157]: [chore: add Español - es-ES language support]
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** [157]  
+**Student:** [Sherlyn Saavedra]  
+**Issue:** [[GitHub issue link](https://github.com/asgardeo/javascript/issues/157)]  
+**Status:** [Phase I] [Complete]
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I selected this open PR because it aligns with one of the skills that I have which is that i am a native spanish speaker. In addition, this also benifits my skills in tech because i will be able to make a signficant contribution by using a techstack i am familiar with TypeScript, HTML, and JavaScript; it expands into a great impact as well since its part of WSO2's/asgardeo accesibility mission for users/customers. 
 
 ---
 
@@ -17,19 +17,19 @@
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+Currently, the Asgardeo JavaScript SDK does not have support for Spanish (Español - es-ES). Users who prefer Spanish will not see UI components translated, limiting accessibility for Spanish-speaking users.
 
 ### Expected Behavior
 
-[What should happen?]
+Asgardeo JavaScript SDK will support support for Spanish (Español - es-ES), which targets Spanish-speaking users.
 
 ### Current Behavior
 
-[What actually happens?]
+The Asgardeo JavaScript SDK does not have support for Spanish (Español - es-ES).
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+No Spanish (es-ES) language support to the @asgardeo/i18n package.
 
 ---
 
