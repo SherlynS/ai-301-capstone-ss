@@ -39,17 +39,22 @@ No Spanish (es-ES) language support to the @asgardeo/i18n package.
 
 [Notes on setting up your local development environment - challenges you faced, how you solved them]
 
+1. Have the proper installations on system in order to properly run and contribute changes: https://github.com/SherlynS/javascript-sher
+2. Fork the repo: https://github.com/asgardeo/javascript/tree/main -> https://github.com/SherlynS/javascript-sher
+3. clone repo into local setup : https://github.com/SherlynS/javascript-sher
+4. Work on local setup and follow along the contribution guide : [CONTRIBUTING.md](https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md)
+   
+
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. There aren't any issues to reproduce, this chore requires for me to implement something new, not to fix any bug therefore the only thing i can prove ist that they don't have any Spanish (es-ES) language support in the @asgardeo/i18n package.
+
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
+- **Commit showing reproduction:** [[Link to your fork]](https://github.com/SherlynS/javascript-sher), there isn't a commit showing the reproduction of any issue since there is no issue that persists. I included the forked repo which is where i plan to push my changes during implementation. 
 - **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **My findings:** [What you discovered during reproduction]: No findings, the contribution document does a good job of clarifying details for setting up the implementation phase. 
 
 ---
 
@@ -72,9 +77,9 @@ Using UMPIRE framework (adapted):
 **Match:** [What similar patterns/solutions exist in the codebase?]
 
 **Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
+1. [Modify file X to do Y]: following this step: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#adding-a-new-language
+3. [Add function Z]: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#adding-a-new-language
+4. [Update tests]: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#test-your-translation
 
 **Implement:** [Link to your branch/commits as you work]
 
