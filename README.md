@@ -78,8 +78,8 @@ Using UMPIRE framework (adapted):
 
 **Plan:** [Step-by-step implementation plan]
 1. [Modify file X to do Y]: following this step: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#adding-a-new-language
-3. [Add function Z]: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#adding-a-new-language
-4. [Update tests]: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#test-your-translation
+3. [Add function Z]: following this step: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#adding-a-new-language
+5. [Update tests]: following this step: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#test-your-translation
 
 **Implement:** [Link to your branch/commits as you work]
 
