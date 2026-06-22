@@ -122,7 +122,8 @@ Using UMPIRE framework (adapted):
  - Needed to link my github account to the one i am currently working with since i originally had it linked to my school github account
 
 #### Testing Strategy
-- Was able to run a command that the CONTRIBUTION.md file walked me through in order to verify that my changes and translations were correct. 
+- Was able to run a command that the CONTRIBUTING.md file walked me through in order to verify that my changes and translations were correct.
+- followed this section and selected option 1: https://github.com/SherlynS/javascript-sher/blob/sherlynS-add-spa/CONTRIBUTING.md#test-your-translation
 
 #### Branch Link
 
