@@ -110,19 +110,28 @@ Using UMPIRE framework (adapted):
 
 ## Implementation Notes
 
-### Week [X] Progress
+### Week [3] Progress
 
-[What you built this week, challenges faced, decisions made]
+## Code Changes
+
+- **Files modified:** created a new file calles es-ES.ts where i am making all my changes in order to provide Spanish (es-ES) language support in the @asgardeo/i18n package
+- **Key commits:** made 2 commits, (1) created the es-ES.ts file and made a copy of the en-US.ts file in order to have an existing format to know where i need to make edits. (2) The second commit i made changes to were three sections (i plan on doing three section changes as i go). 
+- **Approach decisions:** I decided to make changes to one section everyday but made a commit that compiled changes from three days, im hoping to maybe change this up and make more commits each day as instructed in the instructions to see my progress.
+
+## Challanges Faced 
+ - Needed to link my github account to the one i am currently working with since i originally had it linked to my school github account
+
+## Testing Strategy
+- Was able to run a command that the CONTRIBUTION.md file walked me through in order to verify that my changes and translations were correct. 
+
+## Branch Link
+
+- **Link:** https://github.com/SherlynS/javascript-sher/tree/sherlynS-add-spa
+
 
 ### Week [Y] Progress
 
 [Continue documenting as you work]
-
-### Code Changes
-
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
 
 ---
 
