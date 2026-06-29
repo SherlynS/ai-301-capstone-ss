@@ -138,15 +138,20 @@ Using UMPIRE framework (adapted):
 
 ## Pull Request
 
-**PR Link:** [GitHub PR URL when submitted]
+**PR Link:** https://github.com/asgardeo/javascript/pull/533 - DRAFT PR
 
-**PR Description:** [Draft or final PR description - much of the content above can be adapted]
+**PR Description:** Currently, the Asgardeo JavaScript SDK does not have support for Spanish (Español - es-ES). Users who prefer Spanish will not see UI components translated, limiting accessibility for Spanish-speaking users.
+
+This PR addresses this barrier and now customers who prefer Spanish will be able to see UI components translated and easily navigate through other UI components for each readability and use.
 
 **Maintainer Feedback:**
 - [Date]: [Summary of feedback received]
 - [Date]: [How you addressed it]
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+**Status:** [**Awaiting review** / Iterating / Approved / Merged]
+
+**IMPORTANT UPDATE:**  I haven't been able to fully make a PR ready for review yet, since i have been doing mostly testing there is stuff that i need to add to the repositorys documentation. There is missing information which is out of date and also needed in the future for contributors who are testing thieir changes. Therefore ive been able to successfully make a draft PR but i still need to compile this before making it ready to review by the maintainer. I hope this is ok, if not please let me know as soon as possible. 
+
 
 ---
 
