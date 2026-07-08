@@ -105,6 +105,7 @@ Using UMPIRE framework (adapted):
 ### Manual Testing
 
 [What you tested manually and results]
+Used option 2 from the CONTRIBUTING.md file in order to test my changes against an existing application on the repository. i made some updates in the CONTRIBUTING.md  file about some specifications on what works and what doesnt work for this testing option. Some of the instructions are either too vague or out of date. 
 
 ---
 
@@ -138,7 +139,7 @@ Using UMPIRE framework (adapted):
 
 ## Pull Request
 
-**PR Link:** https://github.com/asgardeo/javascript/pull/533 - DRAFT PR
+**PR Link:** https://github.com/asgardeo/javascript/pull/533 - PR IS NOW OPEN FOR REVIEW AND IM WAITING ON HEARING BACK
 
 **PR Description:** Currently, the Asgardeo JavaScript SDK does not have support for Spanish (Español - es-ES). Users who prefer Spanish will not see UI components translated, limiting accessibility for Spanish-speaking users.
 
@@ -152,6 +153,7 @@ This PR addresses this barrier and now customers who prefer Spanish will be able
 
 **IMPORTANT UPDATE:**  I haven't been able to fully make a PR ready for review yet, since i have been doing mostly testing there is stuff that i need to add to the repositorys documentation. There is missing information which is out of date and also needed in the future for contributors who are testing thieir changes. Therefore ive been able to successfully make a draft PR but i still need to compile this before making it ready to review by the maintainer. I hope this is ok, if not please let me know as soon as possible. 
 
+**Most Recent Up To Date Update*** i have now been able to make all the needed changes in order to make the PR open for review. i squashed my commits so the PR looks much cleaner. im hoping to get feedback from the maintainer. i believe there maybbe feedback related to testing since i did only test my changes using only 1 of the 2 testing startegies. This update is from 07/07/26. 
 
 ---
 
