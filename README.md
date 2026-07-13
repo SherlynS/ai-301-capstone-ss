@@ -153,7 +153,12 @@ This PR addresses this barrier and now customers who prefer Spanish will be able
 
 **IMPORTANT UPDATE:**  I haven't been able to fully make a PR ready for review yet, since i have been doing mostly testing there is stuff that i need to add to the repositorys documentation. There is missing information which is out of date and also needed in the future for contributors who are testing thieir changes. Therefore ive been able to successfully make a draft PR but i still need to compile this before making it ready to review by the maintainer. I hope this is ok, if not please let me know as soon as possible. 
 
-**Most Recent Up To Date Update*** i have now been able to make all the needed changes in order to make the PR open for review. i squashed my commits so the PR looks much cleaner. im hoping to get feedback from the maintainer. i believe there maybbe feedback related to testing since i did only test my changes using only 1 of the 2 testing startegies. This update is from 07/07/26. 
+**Most Recent Up To Date Update*** i have now been able to make all the needed changes in order to make the PR open for review. i squashed my commits so the PR looks much cleaner. Im hoping to get feedback from the maintainer. i believe there may be feedback related to testing since i did only test my changes using only 1 of the 2 testing startegies. This update is from 07/07/26. 
+
+**Most Recent Up To Date Update*** I have gotten beedback from an automated bot which the maintainers include in order to suggest any channges before they actually go into review. Im hoping to get some feedback from the actual maintainers this week. I already made a comment letting the maintainers know that i am ready for feedback from them, hopefully this will get their attention. Until then i'll move on to working on fidning a new PR to work on this week. Feedback recently from - 07/12/26. 
+
+- Alert message to maintainer: https://github.com/asgardeo/javascript/issues/157#issuecomment-4953890441
+- Most recent commit with suggested changes from CodeRabbit Bot - https://github.com/asgardeo/javascript/pull/533
 
 ---
 
