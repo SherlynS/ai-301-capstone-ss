@@ -131,9 +131,8 @@ Used option 2 from the CONTRIBUTING.md file in order to test my changes against 
 - **Link:** https://github.com/SherlynS/javascript-sher/tree/sherlynS-add-spa
 
 
-### Week [Y] Progress
-
-[Continue documenting as you work]
+### Week [7] Progress 
+Was able to get some feedback from maintainer on one minor edit (see here: https://github.com/asgardeo/javascript/pull/533#discussion_r3601500068). Was able to make this change and update the PR. Already request for a new review -hopefully this will allow all the checks to pass. --> WORKING ON NEW ISSUE NOW: https://github.com/SherlynS/ai-301-capstone-ss/blob/main/SEC_ISSUE_README.md
 
 ---
 
