@@ -41,18 +41,26 @@ fetchers/ secction where the current resources live for which the newsletter to 
 ### Environment Setup
 
 [Notes on setting up your local development environment - challenges you faced, how you solved them]
+1. Forked Repo: https://github.com/SherlynS/awesome-tech-newsletter
+2. Explore suggested files from PR description: `fetchers/` and `aggregate.py` to see what newsletters are already being used to collect info from.
+3. Explore `CONTRIBUTING.MD file` - download required pacakges to be able to run code + run tests
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Fork Repo 
+2. Explore `CONTRIBUTING.MD file
+3. Download required pacakges to be able to run code + run tests
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
+- **Commit showing reproduction:** [Link to commit in your fork] https://github.com/SherlynS/awesome-tech-newsletter
 - **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **My findings:** [What you discovered during reproduction] - Was able to explore what existing newsletters they are getting information from: https://github.com/Infrasity-Labs/awesome-tech-newsletter/tree/main/fetchers
+
+### Side Note 
+- Worked on exploring some newsletters in order to provide options to the maintainer on which newsletter they would prefer to provide to their customers to share with
+- Here is a response i curated to request to become an assignee of the Open PR and provided newsletter options which i like and know contain valuable information: https://github.com/Infrasity-Labs/awesome-tech-newsletter/issues/18#issuecomment-5086294279 
+
 
 ---
 
