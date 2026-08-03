@@ -61,6 +61,8 @@ fetchers/ secction where the current resources live for which the newsletter to 
 - Worked on exploring some newsletters in order to provide options to the maintainer on which newsletter they would prefer to provide to their customers to share with
 - Here is a response i curated to request to become an assignee of the Open PR and provided newsletter options which i like and know contain valuable information: https://github.com/Infrasity-Labs/awesome-tech-newsletter/issues/18#issuecomment-5086294279 
 
+### Update 07/27-08/02
+Haven't heard back from maintainer from first issue - sent a quick reminder: https://github.com/asgardeo/javascript/issues/157#issuecomment-5172899376. Same thing for second PR- seems like maintainer isn't active so i sent a quick update: https://github.com/Infrasity-Labs/awesome-tech-newsletter/issues/18#issuecomment-5172869695
 
 ---
 
