@@ -65,6 +65,13 @@ I encountered a challenge which i was able to solve and iterate on which fulfill
 As i mentioned before there isn't an existing bug/issue that needs to be reproduced this specific task is a feature which needs to be implemented. Once i set up my environment i than begin exploring the setup of the files which give different language capabilities. This was the specific section i was following since these were the instructions of the maintainer: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#contributing
 
 maintainer instructions: https://github.com/asgardeo/javascript/issues/157#issuecomment-4672524578
+The PR contains the only files which i touched in addition to the sample application (which isn't in the PR): 
+1. .changeset/spanish-translation-bundle.md - added a description of what the changes made were for and introducing spanish translation - https://github.com/asgardeo/javascript/pull/533/changes#diff-fea5f6559db89947005bdb88a88fa3c288d7fe0834859ad38d163d0699efe367
+2. packages/i18n/src/constants/TranslationBundleConstants.ts - included default translations of package to be english and spanish -https://github.com/asgardeo/javascript/pull/533/changes#diff-0c4c4192a8c64cf24f3f30c9e9fb52813b4d246cfe48d468ea7a857f0bec4d3a
+3. packages/i18n/src/translations/es-ES.ts - specific spanish translation of various application components - https://github.com/asgardeo/javascript/pull/533/changes#diff-03ec6917cb3bb70bfa4eca3357014edd29b79861fdd91d883ba5333e4a589a3d
+4. packages/i18n/src/translations/index.ts - updated this to include the path for spanish translation file - https://github.com/asgardeo/javascript/pull/533/changes#diff-c008274c53cb32bd3fba1f2856457ebca7912c364f20b08a0f1d4cdce17f58fc
+5. CONTRIBUTING.md - used this file to explore the different steps towards making the feature happen -  https://github.com/asgardeo/javascript/pull/533/changes#diff-eca12c0a30e25b4b46522ebf89465a03ba72a03f540796c979137931d8f92055
+6. /Users/ssaavedra27/open-source-proj/javascript-sher/samples/teamspace-react/src/main.tsx - sample application path used for testing 
 
 if we want to go into details then here are the steps: 
 1. cloned repo
