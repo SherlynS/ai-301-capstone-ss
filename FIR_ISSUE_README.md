@@ -92,7 +92,62 @@ if we want to go into details then here are the steps (**Setup approach document
 - **Screenshots/logs:** [If applicable]
 - **My findings:** [What you discovered during reproduction]: No findings, the contribution document does a good job of clarifying details for setting up the implementation phase. 
 
+
+### UMPIRE Method 
+Answering rubric portion: Plan uses the UMPIRE framework (Understand / Match / Plan / Review / Evaluate) or an equivalent structure and Plan identifies a root cause (not just a symptom) and names specific files to modify
+
+**Solution Approach**:
+
+Root Cause / Core Limitation: Because this contribution is a feature addition rather than a bug fix, the underlying "root cause" or gap is the complete absence of Spanish (es-ES) localization mappings, bundle structures, and configuration exports within the @asgardeo/i18n package.  
+
+**Specific Files to Modify**:
+
+- packages/i18n/src/translations/es-ES.ts: Created to contain all the specific Spanish translation strings for application components.
+- packages/i18n/src/translations/index.ts: Updated to export the path for the new Spanish translation file.
+- packages/i18n/src/constants/TranslationBundleConstants.ts: Updated to include default package configuration for Spanish.
+- .changeset/spanish-translation-bundle.md: Added to introduce the Spanish translation bundle for proper release tracking.  
+
+**Proposed Solution**: 
+
+Implement full Spanish (es-ES) language support by mirroring the structure of the existing English (en-US) bundle, adding the necessary constants and export paths, and verifying UI component translations using the teamspace-react sample application.
+
+**Implementation Plan**: 
+Using the UMPIRE framework:
+
+- Understand: The Asgardeo JavaScript SDK lacks Spanish (es-ES) language support, which creates a barrier and limits accessibility for Spanish-speaking users.
+- Match: The existing English (en-US) translation files, translation constants, and export configurations inside the codebase serve as the direct pattern to follow.  
+
+**Plan**:
+
+- Create packages/i18n/src/translations/es-ES.ts by copying and translating the structure of the en-US.ts file. 
+- Modify packages/i18n/src/constants/TranslationBundleConstants.ts to include Spanish bundle defaults.
+- Update packages/i18n/src/translations/index.ts to export the new Spanish translation file path.  
+- Create a changeset via .changeset/spanish-translation-bundle.md to document the new feature.
+- Test implementation against the teamspace-react sample app.  
+
+**Implemen**t: 
+
+- Work completed across branches and commits pushed to the fork at https://github.com/SherlynS/javascript-sher/tree/sherlynS-add-spa.
+
+**Review**: 
+
+- Self-reviewed the code against project contribution guidelines, verified automated bot feedback, and ensured all structural patterns matched package requirements.
+
+**Evaluate**: 
+
+- Verified proper translation rendering by running the changes against the teamspace-react sample application and ensuring CI/CD check compliance.
 ---
+
+## STRETCH GOAL
+
+### Investigative Depth & Edge Cases
+
+* **Codebase Exploration & History:** Used `git log` and file inspection across the `@asgardeo/i18n` package to analyze how existing language bundles were introduced and structured.
+* **Analogous "Match" Example:** Found a direct parallel in the codebase—the existing `en-US.ts` translation file and `TranslationBundleConstants.ts`—which served as the exact structural template for implementing the new Spanish bundle without breaking existing localization interfaces - original: https://github.com/asgardeo/javascript/blob/main/packages/i18n/src/translations/en-US.ts vs updated:  https://github.com/asgardeo/javascript/pull/533/changes#diff-03ec6917cb3bb70bfa4eca3357014edd29b79861fdd91d883ba5333e4a589a3d.
+* **Proactive Edge Case Identification:** 
+  * Anticipated missing translation keys where newer SDK features might not yet be mapped in `es-ES.ts`, ensuring proper fallback behavior.
+  * Managed proper character encoding and syntax for Spanish special characters (e.g., accents, tildes) within TypeScript string literals.
+  * Verified that integrating the bundle into the `teamspace-react` sample application successfully avoided runtime UI rendering errors: https://github.com/asgardeo/javascript/blob/main/samples/teamspace-react/src/main.tsx.
 
 ## Solution Approach
 
