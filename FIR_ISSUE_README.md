@@ -51,7 +51,8 @@ i wasn't sure how to download some of these tools - so i used AI to help me unde
 <img width="558" height="622" alt="Screenshot 2026-08-08 at 6 49 11 PM" src="https://github.com/user-attachments/assets/0bf76724-2607-4132-9792-4be0fbecef01" />
 
    
-Then from there i asked more about what these tools are for - so i could get an understanding behind why these are needed as i start my implementation process: 
+Then from there i asked more about what these tools are for - so i could get an understanding behind why these are needed as i start my implementation process.
+
 <img width="583" height="471" alt="Screenshot 2026-08-08 at 6 53 20 PM" src="https://github.com/user-attachments/assets/a124c024-4648-47ed-a2d3-e186f0fb0ff1" />
 
 I encountered a challenge which i was able to solve and iterate on which fulfills the second requirement on the spreadsheet. 
@@ -61,6 +62,22 @@ I encountered a challenge which i was able to solve and iterate on which fulfill
 
 1. There aren't any issues to reproduce, this chore requires for me to implement something new, not to fix any bug therefore the only thing i can prove ist that they don't have any Spanish (es-ES) language support in the @asgardeo/i18n package.
 
+As i mentioned before there isn't an existing bug/issue that needs to be reproduced this specific task is a feature which needs to be implemented. Once i set up my environment i than begin exploring the setup of the files which give different language capabilities. This was the specific section i was following since these were the instructions of the maintainer: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#contributing
+
+maintainer instructions: https://github.com/asgardeo/javascript/issues/157#issuecomment-4672524578
+
+if we want to go into details then here are the steps: 
+1. cloned repo
+2. had the package pre reqs installed
+3. Decided to explore first the existing files and how the languages were being used across the different application components 
+4. created a new language file : https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#create-a-new-language-file
+5. copied the existing structure of the english file: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#create-a-new-language-file
+6. Update the translation components to be now in spanish: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#create-a-new-language-file
+7. Exported the new language bundle: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#create-a-new-language-file
+8. Tested my translation using an exising sample application : https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#create-a-new-language-file - which was option 2: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#option-2-integrate-into-an-existing-sample
+9. Updated the AsgardeoProvider: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#testing-with-asgardeoprovider
+10. Made a changeset- since we are adding a new feature this is a required step: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#releases - https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#creating-a-changeset
+11. Opened a PR and waiting on maintainer approval 
 
 ### Reproduction Evidence
 
