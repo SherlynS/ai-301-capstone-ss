@@ -66,8 +66,8 @@ Haven't heard back from maintainer from first issue - sent a quick reminder: htt
 
 ### Update 07/03-07/07
 - Still haven't heard back from the maintainer after two follow ups i already did -so i decided to move onto exploring different PRs. Here are some which i have been looking at and plan to reach out too.
--   - https://github.com/yugabyte/yugabyte-db/issues/13438 - may pick this but doing som back up research related to Databases and what snapshot schedules are 
-    - https://github.com/nextcloud/server/issues/28875 - want to get more into databases so this may help me with my journey in understanding SQL and DBs. 
+-   - https://github.com/yugabyte/yugabyte-db/issues/13438 - I may pick this but doing some back up research related to Databases and what snapshot schedules are 
+    - https://github.com/nextcloud/server/issues/28875 - I want to get more into databases so this may help me with my journey in understanding SQL and DBs. 
 - Still haven't heard back from my original issue either - hoping i will soon. 
 
 ---
