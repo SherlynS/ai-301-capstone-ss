@@ -62,7 +62,7 @@ I encountered a challenge which i was able to solve and iterate on which fulfill
 
 1. There aren't any issues to reproduce, this chore requires for me to implement something new, not to fix any bug therefore the only thing i can prove ist that they don't have any Spanish (es-ES) language support in the @asgardeo/i18n package.
 
-As i mentioned before there isn't an existing bug/issue that needs to be reproduced this specific task is a feature which needs to be implemented. Once i set up my environment i than begin exploring the setup of the files which give different language capabilities. This was the specific section i was following since these were the instructions of the maintainer: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#contributing
+As i mentioned before there isn't an existing bug/issue that needs to be reproduced this specific task is a feature which needs to be implemented. Once i set up my environment i than begin exploring the setup of the files which give different language capabilities. This was the specific section i was following since these were the instructions of the maintainer: https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md#contributing (**Student can name specific files/functions involved in the bug**): 
 
 maintainer instructions: https://github.com/asgardeo/javascript/issues/157#issuecomment-4672524578
 The PR contains the only files which i touched in addition to the sample application (which isn't in the PR): 
@@ -73,7 +73,7 @@ The PR contains the only files which i touched in addition to the sample applica
 5. CONTRIBUTING.md - used this file to explore the different steps towards making the feature happen -  https://github.com/asgardeo/javascript/pull/533/changes#diff-eca12c0a30e25b4b46522ebf89465a03ba72a03f540796c979137931d8f92055
 6. /Users/ssaavedra27/open-source-proj/javascript-sher/samples/teamspace-react/src/main.tsx - sample application path used for testing 
 
-if we want to go into details then here are the steps: 
+if we want to go into details then here are the steps (**Setup approach documented (dev container / README instructions / CI config inspection**): 
 1. cloned repo
 2. had the package pre reqs installed
 3. Decided to explore first the existing files and how the languages were being used across the different application components 
