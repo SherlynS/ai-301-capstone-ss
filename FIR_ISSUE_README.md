@@ -43,7 +43,19 @@ No Spanish (es-ES) language support to the @asgardeo/i18n package.
 2. Fork the repo: https://github.com/asgardeo/javascript/tree/main -> https://github.com/SherlynS/javascript-sher
 3. clone repo into local setup : https://github.com/SherlynS/javascript-sher
 4. Work on local setup and follow along the contribution guide : [CONTRIBUTING.md](https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md)
+
+Going in depth on environment set up:
+1. Followed the  [CONTRIBUTING.md](https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md) file specifically this section :
+  https://github.com/asgardeo/javascript/blob/main/CONTRIBUTING.md
+i wasn't sure how to download some of these tools - so i used AI to help me understand how to download these tools an what the specific purposes are.
+<img width="558" height="622" alt="Screenshot 2026-08-08 at 6 49 11 PM" src="https://github.com/user-attachments/assets/0bf76724-2607-4132-9792-4be0fbecef01" />
+
    
+Then from there i asked more about what these tools are for - so i could get an understanding behind why these are needed as i start my implementation process: 
+<img width="583" height="471" alt="Screenshot 2026-08-08 at 6 53 20 PM" src="https://github.com/user-attachments/assets/a124c024-4648-47ed-a2d3-e186f0fb0ff1" />
+
+I encountered a challenge which i was able to solve and iterate on which fulfills the second requirement on the spreadsheet. 
+**Environment Setup section documents real challenges encountered + how they were resolved**
 
 ### Steps to Reproduce
 
